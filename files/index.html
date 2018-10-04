@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="app.css">
+    <title>Transit Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="directions.js"></script>
+  </head>
+  <body>
+    <div id="floating-panel">
+      <strong>Start:</strong>
+      <input id="start" value="3307 3rd Ave W Seattle, WA"></input>
+      <br>
+      <strong>End:</strong>
+      <input id="end" value='111 S Jackson Street Seattle, WA 98104'></input>
+      <br/>
+      <button id="submit">Submit</button>
+    </div>
+    <div id="right-panel"></div>
+    <div id="map"></div>
+
+    <script id="mapscipt" async defer
+    src="">
+    </script>
+  </body>
+</html>
